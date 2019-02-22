@@ -61,11 +61,8 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-    i = 0
-    while i < :languages.length do
-      programmer_hash[:dennis_ritchie][:languages][i]
-      i+=1
-    end
+
+      programmer_hash[:dennis_ritchie][:languages][0]
     
 end
 
