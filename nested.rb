@@ -64,6 +64,7 @@ def dennis_ritchies_language
     i = 0
     while i < :languages.length do
       programmer_hash[:dennis_ritchie][:languages][i]
+      i+=1
     end
     
 end
