@@ -113,7 +113,7 @@ def changing_alan
      
      programmer_hash[:alan_kay][:known_for]
      
-    programmer_hash[:alan_kay][:known_for] = alans_new_info
+    programmer_hash[:alan_kay][:known_for] = "#{alans_new_info}"
      
 end
 
